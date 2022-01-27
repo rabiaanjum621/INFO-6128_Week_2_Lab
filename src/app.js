@@ -15,11 +15,12 @@ window.addEventListener('DOMContentLoaded', () => {
   let para = document.querySelector("p");
 // searchParams.get() will properly handle decoding the values.
   if(parsedUrl.searchParams.get('title') != null){
-    para.innerHTML = 'Title shared: ' + parsedUrl.searchParams.get('title')
-  console.log('Title shared: ' + parsedUrl.searchParams.get('title'));
-  console.log('Text shared: ' + parsedUrl.searchParams.get('text'));
+    para.innerHTML = 'Information has been shared as following' +
+    'Title shared: ' + parsedUrl.searchParams.get('title') +
+    'Text shared: ' + parsedUrl.searchParams.get('text') +
+    'URL shared: ' + parsedUrl.searchParams.get('url')
+
   console.log('URL shared: ' + parsedUrl.searchParams.get('url'));
-  alert(parsedUrl.searchParams.get('title'));
   }
   else
   alert('null value received');
