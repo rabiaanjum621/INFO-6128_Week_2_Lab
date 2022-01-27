@@ -1,7 +1,7 @@
 {
   "name": "Share-Target-Rabia",
   "short_name": "ST-Rabia",
-  "start_url": "https://rabiaanjum621.github.io/INFO-6128_Week_2_Lab/",
+  "start_url": "https://github.com/rabiaanjum621/INFO-6128_Week_2_Lab/blob/main/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#aac8d4",
@@ -36,7 +36,7 @@
     }
   ],
   "share_target": {
-    "action": "https://github.com/rabiaanjum621/INFO-6128_Week_2_Lab/blob/main/index.html/",
+    "action": "https://github.com/rabiaanjum621/INFO-6128_Week_2_Lab/blob/main/index.html",
     "method": "GET",
     "params": {
       "title": "title",
